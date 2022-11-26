@@ -1,0 +1,11 @@
+$('#signup-form').hide();
+$('#signup-link').click(function(){
+    $('#signup-form').fadeIn(3000);
+    $('#signup-form').show();
+    $('#signin-form').hide();
+});
+$('#signin-link').click(function(){
+    $('#signin-form').fadeIn(3000)
+    $('#signin-form').show();
+    $('#signup-form').hide();
+});

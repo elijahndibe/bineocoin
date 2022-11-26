@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="responsive.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap 5/css/bootstrap.css">
+    <script src="bootstrap 5/js/bootstrap.bundle.js"></script>
+    <script src="https://kit.fontawesome.com/7895840321.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Preloader starts here onload="myFunction()"-->
+  <!-- <div id="loading"></div> -->
+    <!-- Topbar Section starts -->
+    <a href="" id="to-top"></a>
+    <section>
+        <div class="container-fluid bg-dark d-flex d-none d-md-flex d-lg-flex">
+            <div class="time-leftalign flex-grow-1 ">
+                <p class="text-white fs-6 pt-2">Welcome to Bitcoin Crypto Currency</p>
+            </div>
+            <div class="login-rightalign text-white mx-3 fs-6">
+                <a class="pt-2 navbar nav-link" href="loginpage/login.html">| <i class="fa-regular fa-user px-2"></i> Login |</a>
+        </div>
+            <div class="login-rightalign text-white mx-3 fs-6">
+                <a class="pt-2 navbar nav-link" href="loginpage/login.html"><i class="fa-regular fa-registered pe-2"></i> Register</a>
+        </div>
+    </section>
+    <!-- topbar section ends -->
+     <!-- Navbar section starts -->
+    <section class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid ">
+              <a class="navbar-brand flex-grow-1" href="#">
+                <img src="/Images/logo (1).png" alt="Bootstrap" width="220" height="60">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Terms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+                <button class="btn btn-outline-danger d-md-block d-lg-none d-sm-block w-100 mt-2"><a class="nav-link" href="#">Login</a></button><br>
+                <button class="btn btn-outline-danger d-md-block d-lg-none d-sm-block w-100 mt-2"><a class="nav-link" href="#">Register</a></button>
+                <form class="d-flex d-none d-md-none d-lg-block " role="search">
+                  <input id="search-bar" class="me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger rounded-pill me-5 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <button class="btn btn-outline-danger rounded-pill px-5 d-none d-md-none d-lg-block" type="submit"><a class="nav-link" href="#">Join Us</a></button>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- Navbar section ends -->
+<!-- hero section starts here -->
+<section>
+<div class="line d-none  d-lg-block anime"></div>
+<div class="line2 d-none d-lg-block anime"></div>
+<div class="line3 d-none d-lg-block anime"></div>
+<div class="hero">
+<div class="hero-text anime text-capitalize text-white container  mx-none mx-lg-5">
+  <h5 id="hero-text">Bit Money Is World's Popular bitcoin <br> investment company</h5>
+  <p>Dreams come true when you invest with us</p>
+</div>
+<div class="call-to-action">
+  <button class="btn btn-danger hero-btn anime"><a class="nav-link text-center" href="#">Open Account</a></button>
+</div>
+</div>
+<div class="hero-image anime"></div>
+</section>
+<!-- hero section ends -->
+<!-- Investment packages section -->
+<section class="plan-bg-circle plan-bg p-5 " >
+  <div class="container reveal">
+  <div class="text-center pt-5 reveal">
+    <h5 class="text-danger pb-1">Pricing Plan______</h5>
+    <h1 class="text-capitalize mb-5 pb-5 reveal">Best <span class="text-danger">Investment Packages</span></h1>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col-sm" >
+      <div class="card mb-4 plan--card reveal">
+        <img src="Images/money-exchange.png" class="card-img-top invest-icon rounded-pill mb-3" alt="..." >
+        <div class="">
+          <h5 class="fs-2 text-center text-dark pb-3">STARTER</h1>
+          <p class="text-center text-secondary">Get <span class="text-danger">7%</span> return on investment by choosing the starter plan.</p>
+          <div class="percent bg-danger">
+            <P class=" text-center mb-4">7%</P>
+          </div>
+        </div>
+        <div class="plan-range text-center">
+        <div class="row pt-3">
+          <p class="col">Min:</p><p class="col">$100</p>
+        </div>
+        <div class="row">
+          <p class="col">Max:</p><p class="col">$1000</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm reveal">
+      <div class="card mb-4 plan--card">
+        <img src="Images/bitcoin.png" class="card-img-top invest-icon mb-3" alt="..." >
+        <div class="">
+          <h5 class="fs-2 text-center pb-2">BASIC</h5>
+          <p class="text-center text-secondary">Get <span class="text-danger">8%</span> return on investment by choosing the basic plan.</p>
+          <div class="percent">
+            <P class=" text-center">8%</P>
+          </div>
+        </div>
+        <div class="plan-range text-center">
+        <div class="row pt-3">
+          <p class="col">Min:</p><p class="col">$1001</p>
+        </div>
+        <div class="row">
+          <p class="col">Max:</p><p class="col">$6000</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm reveal">
+      <div class="card mb-4 plan--card">
+        <img src="Images/wallet.png" class="card-img-top invest-icon mb-3" alt="..." >
+        <div class="">
+          <h5 class="fs-3 text-center pb-3">STANDARD</h5>
+          <p class="text-center text-secondary">Get <span class="text-danger">9%</span> return on investment by choosing the standard plan.</p>
+          <div class="percent">
+            <P class=" text-center">9%
+          </div>
+        </div>
+        <div class="plan-range text-center">
+        <div class="row pt-3">
+          <p class="col">Min:</p><p class="col">$6001</p>
+        </div>
+        <div class="row">
+          <p class="col">Max:</p><p class="col">$10000</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm reveal">
+      <div class="card mb-4 plan--card">
+        <img src="Images/bitcoin.png" class="card-img-top invest-icon mb-3" alt="..." >
+        <div class="">
+          <h5 class="fs-2 text-center pb-3">DELUXE</h5>
+          <p class="text-center text-secondary">Get <span class="text-danger">10%</span> return on investment by choosing the deluxe plan.</p>
+          <div class="percent">
+            <P class=" text-center">10%
+          </div>
+        </div>
+        <div class="plan-range text-center">
+        <div class="row pt-3">
+          <p class="col">Min:</p><p class="col">$10001</p>
+        </div>
+        <div class="row">
+          <p class="col">Max:</p><p class="col">$15000</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="col-sm reveal">
+      <div class="card plan--card">
+        <img src="Images/icon.png" class="card-img-top invest-icon mb-3" alt="..." >
+        <div class="">
+          <h5 class="fs-2 text-center pb-3">PREMIUM</h5>
+          <p class="text-center text-secondary">Get <span class="text-danger">12%</span> return on investment by choosing the premium plan.</p>
+          <div class="percent">
+            <P class=" text-center">12%
+          </div>  
+        </div>
+        <div class="plan-range text-center">
+        <div class="row pt-3">
+          <p class="col">Min:</p><p class="col">15001</p>
+        </div>
+        <div class="row">
+          <p class="col">Max:</p><p class="col">$250000</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!-- Investment plan ends -->
+<!-- Profit calculator starts -->
+<section>
+  <div class="container pt-5 reveal">
+    <div class="plans-calc row row-cols-1 row-cols-md-8 row-cols-lg-8 py-5">
+      <div class="plans-calc-icon col-sm-1">
+        <img src="/Images/bitcoin-calculator.png" alt="Plans-calc-icon" width="70px" class="d-block mx-auto" >
+      </div>
+      <div class="plans-calc-text col-sm fs-5" style="color: #dc3545;">
+        PROFIT
+        <strong class="fs-4 text-center">CALCULATOR</strong>
+      </div>
+      <div class="plans-calc-box col-sm">
+        <div class="cal-input">
+          <label class="cal-input">Amount to invest(USD)</label>
+          <input type="number" name="cal-amount" id="cal-amount" class="calc-input btn btn-outline-danger" value="0">
+        </div>
+      </div>
+                    <div class="cal__result--item col-sm">
+                        <div class="cal__result--text">
+                            DAILY PROFIT
+                        </div>
+                        <div class="cal__result--val" id="calc_daily">
+                            $0.00
+                        </div>
+                    </div>
+                    <div class="cal__result--item col-sm">
+                        <div class="cal__result--text">
+                            WEEKLY PROFIT
+                        </div>
+                        <div class="cal__result--val" id="calc_weekly">
+                            $0.00
+                        </div>
+                    </div>
+                    <div class="cal__result--item col-sm-2">
+                        <div class="cal__result--text">
+                            MONTHLY PROFIT
+                        </div>
+                        <div class="cal__result--val" id="calc_monthly">
+                            $0.00
+                        </div>
+                    </div>
+                    <div class="cal__result--item mr-0 col-sm">
+                        <div class="cal__result--text ">
+                            YEARLY PROFIT
+                        </div>
+                        <div class="cal__result--val" id="calc_yearly">
+                            $0.00
+                        </div>
+                    </div>
+                </div>
+
+    </div>
+  </div>
+</section>
+</section>
+<!-- Profit calculator ends -->
+<!-- About-us section starts -->
+<section>
+  <div class="container-fluid about-us-image reveal">
+    <div class="container ">
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col"></div>
+          <div class="about-us col py-5">
+            <h5 class="text-danger">Who we are______</h5>
+            <h1 class="text-white about-us--text display-1 pb-3"> Know <span class="text-danger">About Us</span></h1>
+            <div class="about-us-text text-secondary">
+             <p class=" lh-lg"> BITCOIN ONLINE MINERS is a Leader in Cryptocurrency investment. 
+              We operates daily trading of Crypto by its own expertise trading
+               methods, and generates huge profits daily from the total funds collected. 
+               However, there are still some questions— around reservations on investing 
+               in newer markets that appear volatile. The best way for new or hesitant 
+               investors to enter would be by hedging their returns and starting slow.
+                BITCOIN ONLINE MINERS is a company that helps you trading cryptocurrency 
+                and does not require investors must have any knowledge about cryptocurrency
+                 trading before We assure great return of stable interest daily, with any problem 
+                 at all. You are in the right place, if you wanted to ever earn daily profits. 
+                 Invest today and start your earning engine now.</p>
+            </div>
+            <div class="row">
+              <div class="col">
+                <img src="/Images/plan_ic1.png" alt="" width="50px">
+                <h6 class="text-white">PROFIT <span class="text-danger">RELIABILITY</span></h6>
+              </div>
+              <div class="col">
+                <img src="/Images/plan_ic2.png" alt="" width="50px">
+                <h6 class="text-white">INSTANT <span class="text-danger">WITHDRAW</span></h6>
+              </div>
+              <div class="col">
+                <img src="/Images/plan_ic3.png" alt="" width="50px">
+                <h6 class="text-white">MUTIPLE  <span class="text-danger">CRYPTOCURRENCY</span></h6>
+              </div>
+              <div class="col">
+                <img src="/Images/plan_ic4.png" alt="" width="50px">
+                <h6 class="text-white">NO HIDDEN <span class="text-danger">FEES</span></h6>
+              </div>
+              
+
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+<!-- About us section ends -->
+<!-- Statistics section starts -->
+<section class="stat">
+  <div class="container reveal">
+    <div class="text-center pt-5 pb-3 ">
+      <h1>COMPANY <span class="text-danger">STATISTICS</h1></span>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 row-cols-lg-4 stat-shadow rounded m-4">
+    <div class="col text-center">
+      <i class="fa-solid fa-clock-rotate-left p-2 text-warning" style="width: 200px;"></i>
+      <h6 class="pt-2">RUNNING DAYS</h6>
+      <h6 class="fs-5 fw-bold text-danger">24/7</h6>
+    </div>
+    <div class="col text-center">
+      <i class="fa-light fa-users p-2 text-warning"></i>
+      <h6 class="pt-2 ">TOTAL ACCOUNT</h6>
+      <h6 class="fs-5 fw-bold text-danger">6017</h6>
+    </div>
+    <div class="col text-center">
+      <i class="fa-regular fa-chart-simple p-2 text-warning"></i>
+      <h6 class="pt-2">TOTAL DEPOSITS</h6>
+      <h6 class="fs-5 fw-bold text-danger">$200295609.56</h6>
+    </div>
+    <div class="col text-center">
+      <i class="fa-solid fa-money-bill-transfer p-2 text-warning"></i>
+      <h6 class="pt-2">TOTAL WITHDRAW</h6>
+      <h6 class="fs-5 fw-bold text-danger">$2738995.20</h6>
+    </div>
+  </div>
+
+
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+  <div class="col rounded">
+    <table class="table table-striped table-light border ">
+      <thead>
+      <tr>
+      <th colspan="3" class="text-center text-danger">TOP INVESTORS</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>Chacha1969</td>
+        <td>$92649005.72</td>
+      </tr>
+      <tr>
+        <td>Kerondtrini</td>
+        <td>$133407.17</td>
+        </tr>
+        <tr>
+          <td>sahota707</td>
+          <td>$1273963.00</td>
+          </tr>
+          <tr>
+            <td>Bittu05</td>
+            <td>$125766.58</td>
+            </tr>
+            <tr>
+              <td>Elishama3</td>
+              <td>$1273963.00</td>
+              </tr>
+              <td>Kerondtrini</td>
+        <td>$133407.17</td>
+        </tr>
+        <tr>
+          <td>sahota707</td>
+          <td>$1273963.00</td>
+          </tr>
+          <tr>
+            <td>Bittu05</td>
+            <td>$125766.58</td>
+            </tr>
+            <tr>
+              <td>Elishama3</td>
+              <td>$1273963.00</td>
+              </tr>
+    </tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <table class="table table-striped table-light border">
+      <thead>
+      <tr>
+      <th colspan="3" class="text-center text-danger">TOP REFERRALS</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>Esco</td>
+      </tr>
+      <tr>
+        <td>Reuben</td>
+        </tr>
+        <tr>
+          <td>Williams</td>
+          </tr>
+          <tr>
+            <td>Maxcuba</td>
+            </tr>
+            <tr>
+              <td>Chacha1969</td>
+              </tr>
+              <tr>
+                <td>Viskta</td>
+                </tr>
+                <tr>
+                  <td>Reuben</td>
+                  </tr>
+                  <tr>
+                    <td>Williams</td>
+                    </tr>
+                    <tr>
+                      <td>Maxcuba</td>
+                      </tr>
+    </tbody>
+    </table>
+  </div>
+
+  <div class="col rounded">
+    <table class="table table-striped table-light border">
+      <thead>
+      <tr>
+      <th colspan="3" class="text-center text-danger">LAST DEPOSITS</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px" height="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px" height="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px" height="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px" height="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px" height="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="18px" height="18px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="20px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+      <tr>
+        <td><img src="/images/79.png" alt="" width="20px"></td>
+        <td>Vikrash**</td>
+        <td>$125766.58</td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <table class="table table-striped table-light border">
+      <thead>
+      <tr>
+      <th colspan="3" class="text-center text-danger">LAST WITHDRAWAL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    <tr>
+      <td><img src="/images/79.png" alt="" width="18px"></td>
+      <td>marcel20**</td>
+      <td>$125766.58</td>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+<!-- Statistics ends -->
+<!-- Referral section starts -->
+<section class="refer-image-bg">
+  <div class="container pt-5 reveal">
+    <div class="row">
+      <div class="col">
+        <img id="refer-thumb" src="/Images/referral.png" alt="referral-image" width="500px">
+      </div>
+      <div class="col mt-5">
+        <h5 class="text-danger">Affiliate Commision______</h5>
+        <h1>Refer your friend and earn money</h1>
+        <p class="lh-lg fw-bold text-secondary">Our referral program was created as an additional way for our
+           investors to make money. By attracting new investors to join us, 
+           our members are getting an additional source of income. 
+           The referral program has three levels of participation,
+           with the following percentage accordingly: 5%, 3% and 2%.</p>
+           <div class="container mb-5">
+           <div class="row  text-center gy-4">
+            <div class="col border rounded">
+              <h1>5%</h1>
+              <h6 class="text-danger">1ST LEVEL</h6>
+            </div>
+            <div class="col border rounded">
+              <h1>3%</h1>
+              <h6 class="text-danger">2ND LEVEL</h6>
+            </div>
+            <div class="col border rounded">
+              <h1>2%</h1>
+              <h6 class="text-danger">3RD LEVEL</h6>
+            </div>
+           </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer section starts -->
+<section class="footer-bg pt-4">
+  <div class="container mt-5 py-5 reveal">
+    <div class="row row-cols-1 row-cols-md-3">
+      <div class="col">
+        <a class="navbar-brand flex-grow-1" href="#">
+          <img src="/Images/footer_logo.png" alt="Bootstrap" width="220" height="60">
+        </a>
+      </div>
+
+      <div class="col footer-text mt-2">
+        123, A block, Street Name, City Name, Country Name , Zip 1234567
+      </div>
+
+      <div class="col mt-2">
+        <p class="footer-text">Phone : (555) 2346-789</p>
+        <p class="text-danger"><span class="footer-text">Email :</span> support@example.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="footer-bg2 p-4">
+  <div class="container d-flex pt-3">
+      <div class="flex-grow-1">
+        <p class="footer-text">&copy; Copyright 2022-23 by Bit Money. All Right Reserved</p>
+      </div>
+      <div class="d-md-flex d-none">
+        <p class="footer-text ">| Terms and Condition</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <script src="script.js"></script>   
+</body>
+</html>

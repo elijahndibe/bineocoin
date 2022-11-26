@@ -1,0 +1,77 @@
+body{
+    background-image: url(/Images/slider_img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    width: 28%;
+    margin: auto;
+    padding: 30px;
+    display: block;
+    /* border: 3px solid orange; */
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin: 12px 0;
+    border-radius: 7px;
+    border: 1px solid white;
+}
+input:focus{
+    outline: 2px solid orange;
+    border: none;
+    transition: 1s all;
+}
+
+button{
+    width: 100px;
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid orangered;
+    font-size: 16px;
+    
+}
+button:hover{
+    background-color: orange;
+    color: white;
+   font-weight: bold;
+}
+label{
+    font-size: 14px;
+    color: white;
+}
+span{
+    color: white;
+}
+span a{
+    text-decoration: none;
+    color: orange;
+}
+span a:hover{
+    font-size: 20px;
+    color: orangered;
+}
+
+@media only screen and (max-width: 500px)  {
+    section{
+        margin: 0 20px;
+    }
+    .container{
+        width: 100%;
+    }
+}

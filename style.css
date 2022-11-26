@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.reveal{
+    position: relative ;
+    transform: translateY(150px) ;
+    opacity: 0 ;
+    transition: 1s all ease ;
+  }
+  
+  .reveal.active{
+    transform: translateY(0) ;
+    opacity: 1 ;
+  }
+h1{
+    font-size: 3.5rem !important;
+    font-weight: bold !important;
+    color: #011222 !important;
+}
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #f5f7f8 url(/Images/bitloader1.gif) no-repeat center;
+    z-index: 99999;
+}
+.hero-image{
+    background-image: url(/Images/slider_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: red;
+    height: 600px;
+    background-attachment: fixed;
+}
+
+.hero-text{
+    position: absolute !important;
+    z-index: 2 !important;
+    margin-top: 200px;
+    left: 160px;
+}
+
+#hero-text{
+    font-size: 30px;
+    font-family: sans-serif;
+    transition: 1s all !important;
+    
+}
+.anime{
+    animation-name: glideup;
+    animation-duration: 2s;
+    
+}
+@keyframes glideup{
+    0%{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    50%{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.hero-btn{
+    position: absolute !important;
+    z-index: 2 !important;
+    margin-top: 380px;
+    left: 220px;
+}
+.line{
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 260px;
+    left: 170px;
+    width: 40%;
+    padding: 3px;
+    background-color: rgb(117, 114, 114);
+}
+.line2{
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 260px;
+    left: 170px;
+    height: 300px;
+    padding: 3px;
+    background-color: rgb(117, 114, 114);
+}
+
+.line3{
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 330px;
+    left: 195px;
+    height: 100px;
+    padding: 5px;
+    background-color: #dc3545;
+}
+
+.time-leftalign>p{
+    color: rgb(117, 114, 114) !important;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.login-rightalign>a{
+    color: rgb(204, 199, 199);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login-rightalign>a:hover{
+    color: #dc3545;
+}
+.nav-item>a{
+    color: rgb(51, 49, 49);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.nav-item>a:hover, .active:hover{
+    color: #dc3545 !important;
+}
+#search-bar{
+    border-radius: 8px;
+    outline: none;
+    padding: 5px;
+    border: 1px solid #dc3545;
+}
+#search-bar:focus{
+    border: solid #dc3545;
+    transition: all 1s;
+}
+/* hero section ends */
+/* Investment-packages */
+
+.plan-bg {
+    position: relative;
+    width: 100%;
+    background-color: #fdfdfd;
+    padding-bottom: 12px;
+    /* transition: all 2s; */
+}
+.plan--card{
+    border: none !important;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 50px 30px;
+    box-shadow: 0 20px 40px 0 rgb(28 30 35 / 20%);
+}
+
+.percent{
+    background: #ff3342;
+    color: #fff;
+    font-size: 24px;
+    height: 120px;
+    left: -60px;
+    line-height: 195px;
+    position: absolute;
+    top: -60px;
+    transform: rotate(-45deg);
+    width: 120px;
+    font-weight: bold;
+}
+.invest-icon{
+    display: block;
+     margin:auto; 
+     width:100px !important;
+     padding: 14px;
+     background-color: #ffffff;
+     margin-top: -40px;
+     border-radius: 50% !important;
+     border: 2px solid #ff3342;
+}
+.plan--card:hover .invest-icon{
+    background-color: #ff3342 !important;
+    box-shadow: 0 20px 40px 0 rgb(28 30 35 / 20%);
+}
+
+/* Plans calc */
+.cal__result--text, .cal-input{
+    font-size: 12px;
+    font-weight: bold;
+    color: #111;
+    padding-bottom: 12px;
+    text-align: center;
+}
+.cal__result--val, .plans-calc-text strong{
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 12px;
+    color: #dc3545 !important;
+    text-align: center;
+}
+
+.plans-calc{
+    border: none !important;
+    /* margin-bottom: 12px !important; */
+    border-radius: 20px;
+    box-shadow: 0 0 4px rgba(213, 170, 83, 0.8), 0 0 6px rgba(213, 170, 83, 0.4) !important;
+}
+/* About Us section */
+.about-us-image{
+    background: url(/images/currency_bg.jpg) 50% 0 repeat-y;
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us--text{
+    font-weight: bolder !important;
+}
+.about-us-text{
+    /* color: #797979; */
+    font-family: inherit;
+}
+
+/* Statistics */
+.stat{
+    background-color: #fdfdfd;
+}
+.stat-shadow{
+    border: 1px solid #95a4ac;
+    padding: 12px;
+}
+/* .stat-line{
+    padding: 1.5px;
+    background-color: black;
+    width: 25%;
+    position: absolute;
+    left: 200px;
+}
+.stat-line--left{
+    padding: 1.5px;
+    background-color: #ffc107;
+    width: 25%;
+    position: absolute;
+    right: 200px;
+    margin-top: 45px;
+} */
+/* referral section */
+.refer-image-bg{
+    background-image: url(/Images/bit_coin_bg.jpg);
+    background-color: #fdfdfd;
+    background-position: 0px 190% ;
+    background-repeat: no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+/* footer section */
+.footer-bg{
+    background-color: #1b1b1b;
+}
+.footer-bg2{
+    background-color: #141414;
+}
+.footer-divider{
+    padding: 1px;
+    height: 80px;
+    width: 0px;
+    background-color: #797979;
+    /* position: absolute; */
+    right: 500px;
+}
+.footer-text{
+    color: #797979;
+}

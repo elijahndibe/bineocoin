@@ -1,0 +1,44 @@
+@media only screen and (max-width:500px) {
+    h1{
+        font-size: 2rem !important;
+    }
+    .hero-text{
+        margin-top: 200px;
+        left: 0px;
+    }
+    .hero-text h5{
+        text-align: center;
+    }
+    .hero-text>p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .hero-btn{
+        margin-top: 380px;
+        left: 100px;
+    }
+    .plans-calc-text{
+        text-align: center;
+    }
+    #refer-thumb{
+        width: 250px;
+        display: block;
+        margin: auto;
+    }
+    .plan-range{
+        margin: auto !important;
+        padding: auto !important;
+        /* margin-bottom: 5px; */
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:820px) {
+    .hero-text{
+        position: absolute !important;
+        z-index: 9999 !important;
+        margin-top: 200px;
+        left: 40px;
+        text-align: center;
+    }
+}

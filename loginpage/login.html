@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" type="text/css">
+</head>
+<body>
+    <section>
+        <div class="container" id="signup-form">
+            <div class="form">
+                <form action="">
+                    <label for="fname">Fullname:</label><br>
+                    <input type="text" class="fname" placeholder="Enter your fullname"><br>
+                    <label for="user">Username:</label><br>
+                    <input type="text" class="user" placeholder="Enter your username"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" class="email" placeholder="Enter your email"><br>
+                    <label for="pass">Password:</label><br>
+                    <input type="password" class="pass" placeholder="Enter your password"><br>
+                    <label for="confirmPass">Confirm password:</label>
+                    <input type="password" id="confirmPass" placeholder="Re-enter password">
+                </form>
+                <button id="signup" value="submit">Signup</button>
+                <span>or click <a href="#" id="signin-link">here</a> to signin</span>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="signin-form">
+            <div class="form">
+                <form action="">
+                    <label for="user">Username:</label><br>
+                    <input type="text" class="user" placeholder="Enter your username"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" class="email" placeholder="Enter your email"><br>
+                    <label for="pass">Password:</label><br>
+                    <input type="password" class="pass" placeholder="Enter your password"><br>
+                </form>
+                <button id="signin" value="submit">Signin</button> 
+                <span>or click <a href="#" id="signup-link">here</a> to signup</span>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
