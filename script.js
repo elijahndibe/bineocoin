@@ -1,18 +1,19 @@
 // Loader
-// function myFunction() {
-//   myVar = setTimeout(loader, 2000);
-// }
-
-// var load  = document.getElementById('loading');
-//     function loader(){
-//         load.style.display = 'none';
-//     }
-// let x = document.getElementById('hero-text')
-// function align(){
-//   if(x.style.textAlign = 'left'){
-//     x.style.textAlign = 'center'
-//   }
-// };
+function loaderTimer() {
+  myVar = setTimeout(loader, 2000);
+}
+loaderTimer();
+const load  = document.getElementById('loading');
+    function loader(){
+        load.style.display = 'none';
+    }
+    
+let x = document.getElementById('hero-text')
+function align(){
+  if(x.style.textAlign = 'left'){
+    x.style.textAlign = 'center'
+  }
+};
 
 // Plan calculator begins
   const calAmount = document.getElementById('cal-amount');
